@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <div th:fragment="header">
+
+        <div class="container-fluid noPadding">
+            <img class="fullWidth" src="../images/index/u0.jpg">
+        </div>
+        <nav class="navbar navbar-indexPage" role="navigation">
+            <div class="container-fluid container">
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/">首页</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                学会概况
+                            </a>
+                            <ul class="dropdown-menu down-color">
+                                <li><a href="./about_cips.html">学会简介</a></li>
+                                <li><a href="./about_lead.html">学会章程</a></li>
+                                <li><a href="./about_lead.html">学会领导</a></li>
+                                <li><a href="#">学术自律规范</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                新闻资讯
+                            </a>
+                            <ul class="dropdown-menu down-color">
+                                <li><a href="#">新闻动态</a></li>
+                                <li><a href="#">通知公告</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" >学术活动</a>
+                        </li>
+
+                        <li>
+                            <a href="#">荣誉奖项</a>
+                        </li>
+
+                        <li>
+                            <a href="#">专题特刊</a>
+                        </li>
+
+                        <li>
+                            <a href="#">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                                <img class="search" src="../images/index/u286.jpg">
+                            </span>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

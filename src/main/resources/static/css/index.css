@@ -1,0 +1,183 @@
+/********************** 文本  **********************/
+
+img.swiper_img {
+    width: 666px;
+}
+
+.swiper_info {
+    background-color: rgba(242, 242, 242, 1);
+    height: 367px;
+    margin-left: -15px;
+}
+.swiper .swiper_info span.swiper_info_title {
+    color: #0B50A1;
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 27px;
+    margin-left: 8px;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+}
+.swiper .swiper_info span.swiper_info_text {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 46px;
+    display: block;
+    font-size: 14px;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    line-height: 28px;
+}
+
+
+
+.platforms {
+    margin-top: 20px;
+    margin-bottom: 34px
+}
+.platforms .item {
+    background-color: rgba(229, 233, 242, 1);
+    margin-right: -20px;
+    text-align: center;
+    height: 90px;
+    width: 205px;
+    line-height: 90px;
+}
+img.platforms_img {
+    width: 40px;
+    height: 38px;
+}
+.platforms div:last-child .item {
+    margin-right: -15px;
+}
+.platforms span {
+    font-size: 21px;
+    color: rgb(111, 133, 159);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* 新闻信息 */
+.info_header {
+    position: relative;
+    margin-bottom: 28px;
+}
+.info_header:after {
+    content: "";
+    background-color: #ddd;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+.info_header span.more {
+    color: #999;
+    font-size: 14px;
+    float: right;
+    margin-top: 4px;
+}
+.info_header span.title {
+    display: inline-block;
+    color: rgb(11, 80, 161);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    border-bottom: 3px solid rgb(11, 80, 161);
+    z-index: 1;
+    padding: 0 19px 5px 20px;
+}
+.info_header span.title:after {
+    content: "";
+    background-color: rgb(11, 80, 161);
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    left: 0;
+}
+li.text1-title {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+span.date {
+    float: right;
+    margin-right: 11px;
+}
+.academicActivities {
+    margin-top: 37px;
+}
+li.text2-title {
+    list-style: none;
+    margin-top: 20px;
+}
+span.num {
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    margin-left: 8px;
+}
+
+ul.info_list {
+    padding: 0px 21px;
+}
+.noticeBulletin li.notice_items:first-child {
+    padding-top: 0;
+}
+li.notice_items {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgba(226, 231, 235, 1);
+    padding: 19px 0;
+}
+
+.notice_items .dates {
+    background-color: rgb(226, 231, 235);
+}
+.notice_items .dates span.month_date {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(13, 80, 158);
+}
+.notice_items .dates span.year {
+    font-size: 12px;
+    color: rgb(13, 80, 158);
+}
+
+
+/* 分隔的长图 */
+img.max_img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+/* 学会相关一栏 */
+img.learnIntroduction_img {
+    width: 100%;
+}
+span.learnIntroduction_text1 {
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 26px;
+}
+span.learnIntroduction_text2 {
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 26px;
+}
+li.relatedLinks_text {
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+/* 友情链接一栏 */
+.friendshipLink {
+    margin-top: 50px;
+}
+img.friendshipLink_img {
+    width: 98%;
+    padding-left: 15px;
+    padding-bottom: 34px;
+}

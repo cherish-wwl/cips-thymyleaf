@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:include="Layout/Head :: htmlhead" th:with="title='首页'"></head>
+<head>
+    <link href="/css/index.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="index_container">
+    <div th:text=" ${data}"></div>
+    <div th:replace="Layout/Header :: header" :th:with></div>
+    <div>
+        <div class="index-context container">
+            <div class="row swiper">
+                <div class="col-md-7">
+                    <img class="swiper_img" src="../images/index/u15.jpg">
+                </div>
+                <div class="col-md-5 swiper_info">
+                    <span class="swiper_info_title">中国中文信息学会2017学术年会暨理事会在深圳成功召开</span>
+                    <span class="swiper_info_text">2017年11月23-24日，由中国中文信息学会医疗健康与生物信息处理专业委员会主办，哈尔滨工业大学（深圳）承办的第三届中国健康信息处理大会（CHIP 2017）在深圳大梅沙隆重举行。会议首先分别邀...</span>
+                </div>
+            </div>
+            <div class="row platforms">
+                <div class="col-md-4 col-lg-2dot4">
+                    <div class="item">
+                        <img class="platforms_img" src="../images/index/u6.png">
+                        <span>工作委员会</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2dot4">
+                    <div class="item">
+                        <img class="platforms_img" src="../images/index/u6.png">
+                        <span>工作委员会</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2dot4">
+                    <div class="item">
+                        <img class="platforms_img" src="../images/index/u6.png">
+                        <span>工作委员会</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2dot4">
+                    <div class="item">
+                        <img class="platforms_img" src="../images/index/u6.png">
+                        <span>工作委员会</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2dot4">
+                    <div class="item">
+                        <img class="platforms_img" src="../images/index/u6.png">
+                        <span>工作委员会</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-5">
+                    <div class="newsActive">
+                        <div class="info_header">
+                            <span class="title">新闻动态</span>
+                            <span class="more">更多>></span>
+                        </div>
+                        <ul>
+                            <li class="text1-title">
+                                <span class="text1">全国科技创新大会两院院士大会 中国科协...</span>
+                                <span class="date">2017-11-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">中国科协召开第三季度新闻发布会</span>
+                                <span class="date">2017-11-09</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">网络科普专题讨论会在北京召开</span>
+                                <span class="date">2017-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">青年科技领军人才国情研修班举办</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">中国科协召开第三季度新闻发布会</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="academicActivities">
+                        <div class="info_header">
+                            <span class="title">学术活动</span>
+                            <span class="more">更多>></span>
+                        </div>
+                        <ul>
+                            <li class="text1-title">
+                                <span class="text1">2018年中国中文信息学会优秀博士学位...</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">中国中文信息学会2018年学术活动计划</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">网络科普专题讨论会在北京召开</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">青年科技领军人才国情研修班举办</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                            <li class="text1-title">
+                                <span class="text1">中国科协召开第三季度新闻发布会</span>
+                                <span class="date">2016-05-30</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 memberCommunication">
+                    <div class="info_header">
+                        <span class="title">会员通讯</span>
+                        <span class="more">更多>></span>
+                    </div>
+                    <ul>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                        <li class="text2-title">
+                            <span class="num">[Vol.8,No.5]</span>
+                            <span class="text2">中国中文信息学会会员通讯</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 noticeBulletin">
+                    <div class="info_header">
+                        <span class="title">通知公告</span>
+                        <span class="more">更多>></span>
+                    </div>
+                    <ul class="info_list">
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                        <li class="notice_items">
+                            <div class="dates">
+                                <span class="month_date">03-11</span>
+                                <span class="year">2018</span>
+                            </div>
+                            <div class="notice_item">
+                                <span class="text3">评测任务征集 全国知识图谱与语义计算大会（CCKS 2018）</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img class="max_img" src="../images/index/u170.jpg">
+            </div>
+            <div class="row" >
+                <div class="col-md-5 learnIntroduction">
+                    <div class="info_header">
+                        <span class="title">学会简介</span>
+                    </div>
+                    <img class="learnIntroduction_img" src="../images/index/u190.jpg">
+                    <div>
+                        <span class="learnIntroduction_text1">中国中文信息学会成立于1981年6月。钱伟长、甄健民、安其春等为主要发起人。中国中文信息学会是依法成立并经中国科学技术协会接纳的科学技术工作者的学术性群众团体，是具有独立社团法人资格的国家一级学会。</span>
+                        <span class="learnIntroduction_text2">学会的宗旨是提倡辨证唯物主义，坚持实事求是的科学态度，贯彻“百花齐放，百家争鸣”的方针，充分发扬民主...</span>
+                    </div>
+                </div>
+                <div class="col-md-3 learnWeekly">
+                    <div class="info_header">
+                        <span class="title">学会周刊</span>
+                    </div>
+                    <img class="learnWeekly_img" src="../images/index/u192.jpg">
+                    <div class="learnWeekly_text1">
+                        <span>《中文信息学报》中文版</span>
+                        <span>CN11-2325ISSN1003-0077</span>
+                        <span>期刊介绍             编委会</span>
+                        <span>编辑部                投稿指南</span>
+                        <span>各期目录             论文检索</span>
+                    </div>
+                    <div class="learnWeekly_text2">《中文信息学报》中文版于1986年创刊是经国家科委批准，由中国科学技术协会主管，中文信息学会...</div>
+                </div>
+                <div class="col-md-4 relatedLinks">
+                    <div class="info_header">
+                        <span class="title">相关链接</span>
+                        <span class="more">更多>></span>
+                    </div>
+                    <ul>
+                        <li class="relatedLinks_text">CIPS Summer School and ATT</li>
+                        <li class="relatedLinks_text">CIPS Summer School</li>
+                        <li class="relatedLinks_text">ACL 2015</li>
+                        <li class="relatedLinks_text">CIPS Summer School and ATT</li>
+                        <li class="relatedLinks_text">ACL 2015</li>
+                        <li class="relatedLinks_text">CIPS Summer School and ATT</li>
+                        <li class="relatedLinks_text">CIPS Summer School</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-12 friendshipLink">
+                    <div class="info_header">
+                        <span class="title">友情链接</span>
+                    </div>
+                </div>
+                <img class="friendshipLink_img" src="../images/index/u244.png">
+            </div>
+        </div>
+    </div>
+    <div th:replace="Layout/Footer :: footer"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+/********************** 公共样式-start  **********************/
+*{
+    padding: 0;
+    margin: 0;
+}
+.noPadding {
+    padding: 0;
+    
+}
+.fullWidth {
+    width: 100%;
+}
+
+.col-lg-2dot4 { 
+    position: relative; 
+    min-height: 1px; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+}
+.height80vh{
+    min-height:calc(79vh);
+}
+.flex_container {
+    display: flex;
+}
+@media (min-width: 1200px) { 
+    .col-lg-2dot4 { 
+        float: left; 
+    } 
+    .col-lg-2dot4 { 
+        width: 20%; 
+    } 
+    .col-lg-pull-2dot4 { 
+        right: 20%; 
+    } 
+    .col-lg-push-2dot4 { 
+        left: 20%; 
+    } 
+    .col-lg-offset-2dot4 { 
+        margin-left: 20%; 
+    } 
+} 
+/********************** 公共样式-end  **********************/
+
+/********************** 导航栏样式-start ***********************/
+.navbar-indexPage {
+    background-color:rgba(17, 90, 176, 1);
+    border: none;
+    border-radius: 0;
+}
+/* 鼠标悬浮导航下拉 */
+.navbar-indexPage .nav > li:hover .dropdown-menu {
+    display: block;
+} 
+.navbar-indexPage ul.nav.navbar-nav>li.active{
+    background-color: #0B50A1;
+}
+.navbar-indexPage .navbar-nav>li>a {
+    font-size: 16px;
+    color: #fff;
+}
+.navbar-indexPage .nav .open>a, .navbar-indexPage .nav .open>a:focus, .navbar-indexPage .nav .open>a:hover {
+    background-color: #0d509e;
+}
+.navbar-indexPage .nav>li>a:focus, .navbar-indexPage .nav>li>a:hover {
+    background-color: #0d509e;
+}    
+
+.navbar-indexPage ul.dropdown-menu.down-color {
+    background-color: rgba(17, 90, 176, 1);
+    min-width: 0;
+    width: 120px;
+    border: none;
+    text-align: center;
+}
+.navbar-indexPage ul.dropdown-menu.down-color li a{
+    padding: 8px 0;
+}
+.navbar-indexPage .dropdown-menu.down-color>li>a {
+    color: #fff;
+}
+.navbar-indexPage ul.nav.navbar-nav>li {
+    width: 120px;
+    text-align: center;
+}
+.navbar-indexPage .dropdown-menu.down-color>li>a:focus, .navbar-indexPage .dropdown-menu.down-color>li>a:hover {
+    background-color: #0d509e;
+}
+
+.navbar-indexPage input.form-control {
+    border: none;
+    border-radius: 0;
+    background-color: #467bb9;
+    height: 28px;
+    margin: 0 1px;
+}
+.navbar-indexPage img.search {
+    height: 29px;
+}
+.navbar-indexPage .input-group {
+    margin-top: 2px;
+    margin-left: 28px;
+}
+
+@media (min-width: 768px){
+    .navbar-indexPage .navbar {
+        border-radius: 0;
+    }
+}
+
+/********************** 导航栏样式-end ***********************/
+
+/* footer */
+footer.qubian {
+    border: none;
+    background-color: rgb(242, 242, 242);
+}
+.footer {
+    height: 190px;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+.footer_img {
+    border-right: 1px solid black;
+    padding: 30px;
+}
+img.chinaItemlearn {
+    margin-left: 27px;
+}
+
+.footer_info {
+    display: flex;
+    align-items: center;
+}
+img.footer_wechat {
+    margin: 0 26px;
+}
+
+span.footer_text {
+    display: block;
+    line-height: 28px;
+}
+
+/* 索引页 */
+
+img.navigation_img {
+    width: 100%;
+}
+
+.navigation_list ul.navigation_ul {
+    list-style: none;
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+}
+
+.navigation_list li.navigation_text3 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    border-right: 4px solid #332a2a00;
+}
+.navigation_text3_title {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 66, 137, 1);
+    opacity: 0.8;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+    margin-top: -42px;
+}
+.navigation_list li.navigation_text3.active,.navigation_list li.navigation_text3:hover,.navigation_list li.navigation_text3:active {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(17, 90, 176);
+    border-right:4px solid rgb(17, 90, 176)
+}
+.navigation_list .locatIntro {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    border-bottom: 1px solid #e5e9ed;
+    padding: 12px 0;
+}

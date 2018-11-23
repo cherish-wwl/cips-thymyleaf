@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:include="Layout/Head :: htmlhead" th:with="title='首页'"></head>
+<head>
+    <link href="/css/about_cips.css" rel="stylesheet"/>
+    <link href="/css/about_lead.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="index_container">
+        <div th:text=" ${data}"></div>
+        <div th:replace="Layout/Header :: header"></div>
+        <div class="page_content">
+            <div class="index-context container">
+                <div>
+                    <img class="navigation_img" src="../images/about_cips/u759.jpg">
+                </div>
+                <div class="row flex_container height80vh" >
+                    <div th:replace="Layout/Aside :: aside"></div>
+                    <div th:replace="about_cips"></div>
+                </div>
+            </div>
+            <div th:replace="Layout/Footer :: footer"></div>
+        </div>
+    </div>
+</body>
+</html>

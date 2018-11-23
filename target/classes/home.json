@@ -1,0 +1,23 @@
+{
+  "title": "首页",
+  "navList": [
+      {
+        "name": "首页",
+        "path": ""
+      },
+      {
+        "name": "学会概况",
+        "path": "/about",
+        "children": [
+          {
+            "name": "学会简介",
+            "path": "#brief"
+          },
+          {
+            "name": "学会章程",
+            "path": "#constitution"
+          }
+        ]
+    }
+  ]
+}
